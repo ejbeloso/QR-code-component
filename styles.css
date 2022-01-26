@@ -1,0 +1,44 @@
+body {
+  background-color: powderblue;
+  font-family: "Outfit" sans-serif;
+  justify-content: center;
+}
+
+.QR-code {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+
+.QR-heading {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  padding: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.QR {
+  background-color: hsl(0, 0%, 100%);
+  width: 300px;
+  margin: 10% auto;
+  padding: 1%;
+  font-family: "outfit";
+  text-align: center;
+  border-radius: 10px;
+}
+.QR-sub {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  padding: 10px;
+  font-weight: 400;
+  margin-top: 0;
+}
+@media (max-width: 820px) {
+  .QR {
+    padding: 10px;
+    margin: auto;
+    margin-top: 20%;
+  }
+}
